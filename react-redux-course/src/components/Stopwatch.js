@@ -8,7 +8,7 @@ export default class Stopwatch extends Component {
   };
 
   componentDidMount() {
-    this.interval = setInterval(this.onTick);
+    this.interval = setInterval(this.onTick, 500);
   }
 
   componentWillUnmount() {
